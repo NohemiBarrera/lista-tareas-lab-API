@@ -1,3 +1,20 @@
+h1{
+	text-align: center;
+	color: blue;
+}
+.btn-sm{
+	margin-left: 20px;
+}
+
 .glyphicon{
 	padding: 5px;
+}
+.glyphicon-remove{
+	color: red;
+}
+.glyphicon-pencil{
+	color: green;
+}
+.glyphicon-eye-open{
+	color: blue;
 }

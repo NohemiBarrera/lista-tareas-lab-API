@@ -14,7 +14,7 @@ var borrar = function(e){
 	e.preventDefault();
 	var elemento = $(e.target);
 	var padre = elemento.parent().parent();
-  	var id = padre.data('clave');
+  	var id = padre.data('miau');
 	  padre.remove();
    	var url_id = api.url + id;
    	//console.log(url_id);
