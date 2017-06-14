@@ -21,9 +21,7 @@ var borrar = function(e){
   	$.ajax({
     	url: url_id,
     	type: "DELETE",
-    	//success: function (data){
-    //alert("holi");
-    //}
+    	success: console.log("wiii")
   });
 }
 
