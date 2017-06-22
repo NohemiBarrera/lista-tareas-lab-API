@@ -73,5 +73,10 @@ var agregarTarea = function (e) {
     $("#myModal").modal("hide");
   });
 };
+/*
+var mostrarTarea = function(e){
+	e.preventDefault();
+	var detalles = $()
+}*/
 
 $(document).ready(cargarPagina);
